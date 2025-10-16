@@ -1,0 +1,12 @@
+[
+{
+  "username": "invalid007abzz007",
+  "password": "test",
+  "messagetext": "User does not exist."
+},
+{
+  "username": "gandalf01",
+  "password": "test121212",
+  "messagetext": "Wrong password."
+}
+]

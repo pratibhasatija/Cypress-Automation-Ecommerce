@@ -1,0 +1,12 @@
+{
+  "categoryname": "Laptops",
+  "productname": "MacBook Pro", 
+  "orderDetails": {
+    "name": "Pratibha Satija",
+    "country": "Germany",
+    "city": "Berlin",
+    "creditcard": "123456789123456789",
+    "month": "10",
+    "year": "2026"
+  }
+}
