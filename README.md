@@ -5,15 +5,17 @@ This repo contains end to end automated tests using cypress with javascript.
 * Smoke checks - Included
 
 
-### Pre-requisites
-* Node.js and NPM installation
+### Pre-requisites and Environment Setup
+* Node.js installation
 * Visual Studio Code installation
-* Install Cypress via Terminal on Visual Studio Code: npm install cypress --save -dev
 * Login to Gitbash and clone this project from repo : git clone https://github.com/pratibhasatija/Cypress-Automation-Ecommerce.git
+* Open the project in Visual Studio Code
+* On terminal, run: 
+   * npm install
+   * Install Cypress: npm install cypress --save -dev
 * Sign up on [Demoblaze](https://www.demoblaze.com/)
 
-### Instruction On How To Run The Tests From Terminal
-* Open the project folder downloaded from git in Visual Studio Code. View Terminal to run the commands provided in below steps.
+### Running Cypress Tests
 * For headless mode : npx cypress run
 * For Testrunner : npx cypress open
 * To override default login credentials stored in cypress.congig.js, Run: npx cypress run --env username=yourUser,password=yourPass
@@ -73,3 +75,4 @@ This repo contains end to end automated tests using cypress with javascript.
 1.  Needed help in finding out css locator of categories as there is some inconsistency on the website in category UI name and category in html elements.
 1. Used for debugging as the username value was getting cut off every now and then. So used { delay: 50, force: true } in the code.
 1. General error debugging a few times.
+
