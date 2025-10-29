@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "baseUrl": ".",
+    "paths": {
+      "cypress/*": ["./cypress/*"]
+    }
+  },
+  "include": ["cypress/**/*.js"]
+}
+//for intelliSense support in javascript
