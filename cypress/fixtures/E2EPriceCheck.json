@@ -1,0 +1,17 @@
+{
+  "order": {
+    "products": [
+      { "name": "Samsung galaxy s6"},
+      { "name": "MacBook Pro"},
+      { "name": "Samsung galaxy s101 Invalid"}
+    ],
+    "user": {
+      "name": "Test User",
+      "country": "Germany",
+      "city": "Berlin",
+      "creditcard": "1234 5678 9012 3456",
+      "month": "10",
+      "year": "2026"
+    }
+  }
+}
