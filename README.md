@@ -43,36 +43,29 @@ This repo contains end to end automated tests using cypress with javascript.
     * Verify navbar tabs are present
     * Verify top image exists
     * Verify Contact modal Submit success scenario
-
-### Important Automation Checks For Release v2.0 (Not Automated)
-* Cost checks to make sure product cost is consistent across all pages.
-* More flexibility in searching a product on different pages within each category.
-* About us modal.
-* Out of stock products handling.
+4. E2E Price Checks
+    * Cost checks to make sure product cost is consistent across all pages, More flexibility in searching a product on different pages within each category
 
 ### Project Folders and Structure
 * cypress/
   * e2e/
+    * E2EPriceCheck.cy.js         - Pagination and Price Check
     * LoginFlow.cy.js             - Login test cases
     * PurchaseFlow.cy.js          - Product add/delete/place order flow
     * SmokeChecks.cy.js           - Smoke tests (no POM, no login)
   * fixtures/
     * LoginNegativeData.json      - Sample test data (e.g. Invalid credentials)
     * PurchaseData.json           - Sample test data (e.g. product name, Order details)
+    * E2EPriceCheck.json          - Sample test data (e.g. product names, Order details)
   * PageObjectModel/
     * LoginFlow_POM.js            - Login-related functions
     * PurchaseFlow_POM.js         - Product interaction functions
   * support/
-    * commands.js                 - Custom Cypress commands (optional)
+    * commands.js                 - Custom Cypress commands added
     * e2e.js                      - Test setup
 * cypress.config.js               - Project configuration, Default username password, Baseurl
 * package.json                    - Project dependencies and test scripts
 * package-lock.json               - Exact versions of installed packages
 * README.md                       - Project documentation
 
-### AI Usage
-1.  Help in finding out how to run cypress scripts with username and password to overwrite fixture values (npx cypress run --env username=yourUser,password=yourPass).
-1.  Needed help in finding out css locator of categories as there is some inconsistency on the website in category UI name and category in html elements.
-1. Used for debugging as the username value was getting cut off every now and then. So used { delay: 50, force: true } in the code.
-1. General error debugging a few times.
 
